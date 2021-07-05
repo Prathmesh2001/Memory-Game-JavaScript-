@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.container {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 2px solid gray;
+    background: linear-gradient(to bottom right, rgba(0, 88, 74, 0.5), rgba(0, 164, 214, 0.5));
+    padding: 2rem;
+}
+
+.grid {
+    display: flex;
+    flex-flow: wrap row;
+    width: 620px;
+    height: 470px;
+    justify-content: space-between;
+}
+
+.img-container {
+    width: 150px;
+    height: 150px;
+}
