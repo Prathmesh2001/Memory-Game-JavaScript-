@@ -46,6 +46,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let cardWon = [];
     let score = document.getElementById('score');
 
+    //randomize the card array
+    cardArray.sort(() => 0.5 - Math.random());
+
     //create board
     function createBoard() {
         for (let i = 0; i < cardArray.length; i++) {
@@ -68,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cardChosenId.push(cardId);
             this.setAttribute('src', cardArray[cardId].img);
             if (cardChosen.length === 2) {
-                setTimeout(checkMatch, 300);
+                setTimeout(checkMatch, 500);
             }
         }
     }
