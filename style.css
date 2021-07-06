@@ -11,10 +11,19 @@ body {
     text-align: center;
     left: 50%;
     transform: translate(-50%, 0);
-    border: 2px solid gray;
+    border: 2px solid #000152;
     background: linear-gradient(to bottom right, rgba(63, 19, 167, 0.6), rgba(0, 164, 214, 0.6));
     padding: 1rem;
     width: 50%;
+}
+
+.container h2 {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    color: #00ff80;
+    text-shadow: 0 0 10px #06003a;
 }
 
 .grid {
